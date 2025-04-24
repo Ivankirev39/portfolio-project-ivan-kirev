@@ -1,0 +1,17 @@
+@import './base.css';
+@import "tailwindcss";
+
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  font-weight: normal;
+}
+
+a,
+.green {
+  color: #f7f7f7;
+  transition: 0.4s;
+}
+
