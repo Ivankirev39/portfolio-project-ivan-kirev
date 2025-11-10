@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-stone-950 w-[1905px]">
-    <nav class="flex flex-wrap justify-between items-center w-full h-auto md:h-[90px] p-4 !text-4xl bg-black">
+ <div class="bg-stone-950">
+    <nav class="max-w-screen-4xl flex flex-wrap items-center justify-between mx-auto p-4">
      
       <button 
         @click="isMenuOpen = !isMenuOpen" 
@@ -18,7 +18,7 @@
         ]"
         class="md:flex md:!space-x-10 md:!ml-18"
       >
-        <div class="flex flex-col md:flex-row md:!space-x-10">
+        <div class="flex flex-col text-2xl text-[#f4f4f4] md:flex-row md:!space-x-10">
           <RouterLink 
             to="/" 
             class="block py-5 md:py-0 hover:text-stone-400 transition duration-300 ease-in-out transform hover:translate-x-2 md:hover:translate-x-0 md:hover:scale-105 md:active:scale-95"
@@ -43,20 +43,20 @@
    
       <div 
         :class="[
-          'w-full md:flex md:w-auto md:order-2',
+          'w-full md:flex md:w-auto  md:order-2 text-4xl',
           isMenuOpen ? 'block' : 'hidden'
         ]"
         class="flex justify-center py-1 md:py-0 md:!space-x-10 md:!mr-22"
       >
         <a 
           href="https://www.linkedin.com/in/ivan-dimitrov-kirev-385873361/" 
-          class="px-2 hover:text-stone-400 transition duration-300 ease-in-out transform hover:translate-x-2 md:hover:translate-x-0 md:hover:scale-110 md:active:scale-95"
+          class="px-2 hover:text-stone-400 transition duration-300 ease-in-out text-[#f4f4f4] transform hover:translate-x-2 md:hover:translate-x-0 md:hover:scale-110 md:active:scale-95"
         >
           <i class="fab fa-linkedin"></i>
         </a>
         <a 
           href="https://github.com/Ivankirev39" 
-          class="px-2 hover:text-stone-400 transition duration-300 ease-in-out transform hover:translate-x-2 md:hover:translate-x-0 md:hover:scale-110 md:active:scale-95"
+          class="px-2 hover:text-stone-400 transition duration-300 ease-in-out text-[#f4f4f4] transform hover:translate-x-2 md:hover:translate-x-0 md:hover:scale-110 md:active:scale-95"
         >
           <i class="fa-brands fa-github"></i>
         </a>
