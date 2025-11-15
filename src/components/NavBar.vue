@@ -32,7 +32,7 @@
             Projects
           </RouterLink>
           <RouterLink 
-            to="/contact" 
+            to="/contact me" 
             class="block py-4 md:py-0 hover:text-stone-400 transition duration-300 ease-in-out transform hover:translate-x-2 md:hover:translate-x-0 md:hover:scale-105 md:active:scale-95"
           >
             Contact
